@@ -1,0 +1,7293 @@
+{
+  "lista": [
+    {
+      "nombre": "Bulbasaur",
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Drenadoras",
+          "tipo": "planta",
+          "nivelMin": 7,
+          "damage": 30
+        },
+        {
+          "nombre": "Látigo Cepa",
+          "tipo": "planta",
+          "nivelMin": 13,
+          "damage": 45
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Hoja Afilada",
+          "tipo": "planta",
+          "nivelMin": 27,
+          "damage": 55
+        },
+        {
+          "nombre": "Desarrollo",
+          "tipo": "normal",
+          "nivelMin": 34,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 41,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Solar",
+          "tipo": "planta",
+          "nivelMin": 48,
+          "damage": 120
+        }
+      ]
+    },
+    {
+      "nombre": "Ivysaur",
+      "vida": 50,
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Drenadoras",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Drenadoras",
+          "tipo": "planta",
+          "nivelMin": 7,
+          "damage": 30
+        },
+        {
+          "nombre": "Látigo Cepa",
+          "tipo": "planta",
+          "nivelMin": 13,
+          "damage": 45
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 22,
+          "damage": 30
+        },
+        {
+          "nombre": "Hoja Afilada",
+          "tipo": "planta",
+          "nivelMin": 30,
+          "damage": 55
+        },
+        {
+          "nombre": "Desarrollo",
+          "tipo": "normal",
+          "nivelMin": 38,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 46,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Solar",
+          "tipo": "planta",
+          "nivelMin": 54,
+          "damage": 120
+        }
+      ]
+    },
+    {
+      "nombre": "Venusaur",
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Drenadoras",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Látigo Cepa",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 45
+        },
+        {
+          "nombre": "Drenadoras",
+          "tipo": "planta",
+          "nivelMin": 7,
+          "damage": 30
+        },
+        {
+          "nombre": "Látigo Cepa",
+          "tipo": "planta",
+          "nivelMin": 13,
+          "damage": 45
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 22,
+          "damage": 30
+        },
+        {
+          "nombre": "Hoja Afilada",
+          "tipo": "planta",
+          "nivelMin": 30,
+          "damage": 55
+        },
+        {
+          "nombre": "Desarrollo",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 55,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Solar",
+          "tipo": "planta",
+          "nivelMin": 65,
+          "damage": 120
+        }
+      ]
+    },
+    {
+      "nombre": "Charmander",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 9, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 22, "damage": 20 },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 70
+        },
+        {
+          "nombre": "Lanzallamas",
+          "tipo": "fuego",
+          "nivelMin": 38,
+          "damage": 90
+        },
+        {
+          "nombre": "Giro Fuego",
+          "tipo": "fuego",
+          "nivelMin": 46,
+          "damage": 35
+        }
+      ]
+    },
+    {
+      "nombre": "Charmeleon",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 9, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 24, "damage": 20 },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 33,
+          "damage": 70
+        },
+        {
+          "nombre": "Lanzallamas",
+          "tipo": "fuego",
+          "nivelMin": 42,
+          "damage": 90
+        },
+        {
+          "nombre": "Giro Fuego",
+          "tipo": "fuego",
+          "nivelMin": 56,
+          "damage": 35
+        }
+      ]
+    },
+    {
+      "nombre": "Charizard",
+      "vidaBase": 100,
+      "tipos": ["fuego", "volador"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 9, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 24, "damage": 20 },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 70
+        },
+        {
+          "nombre": "Lanzallamas",
+          "tipo": "fuego",
+          "nivelMin": 46,
+          "damage": 90
+        },
+        {
+          "nombre": "Giro Fuego",
+          "tipo": "fuego",
+          "nivelMin": 55,
+          "damage": 35
+        }
+      ]
+    },
+    {
+      "nombre": "Squirtle",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 8, "damage": 40 },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 15,
+          "damage": 40
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 22,
+          "damage": 60
+        },
+        { "nombre": "Refugio", "tipo": "agua", "nivelMin": 28, "damage": 30 },
+        {
+          "nombre": "Cabezazo",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 130
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 42,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Wartortle",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 1, "damage": 40 },
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 8, "damage": 40 },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 15,
+          "damage": 40
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 24,
+          "damage": 60
+        },
+        { "nombre": "Refugio", "tipo": "agua", "nivelMin": 31, "damage": 30 },
+        {
+          "nombre": "Cabezazo",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 130
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 47,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Blastoise",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 8, "damage": 40 },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 15,
+          "damage": 40
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 24,
+          "damage": 60
+        },
+        { "nombre": "Refugio", "tipo": "agua", "nivelMin": 31, "damage": 30 },
+        {
+          "nombre": "Cabezazo",
+          "tipo": "normal",
+          "nivelMin": 42,
+          "damage": 130
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 52,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Caterpie",
+      "vidaBase": 100,
+      "tipos": ["bicho"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Disparo Demora",
+          "tipo": "bicho",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Metapod",
+      "vidaBase": 100,
+      "tipos": ["bicho"],
+      "ataques": [
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Butterfree",
+      "vidaBase": 100,
+      "tipos": ["bicho", "volador"],
+      "ataques": [
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 12,
+          "damage": 50
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 16,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 17,
+          "damage": 30
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        {
+          "nombre": "Remolino",
+          "tipo": "normal",
+          "nivelMin": 26,
+          "damage": 30
+        },
+        {
+          "nombre": "Tornado",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Psicorrayo",
+          "tipo": "psiquico",
+          "nivelMin": 32,
+          "damage": 65
+        }
+      ]
+    },
+    {
+      "nombre": "Weedle",
+      "vidaBase": 100,
+      "tipos": ["bicho", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Disparo Demora",
+          "tipo": "bicho",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Kakuna",
+      "vidaBase": 100,
+      "tipos": ["bicho", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Beedrill",
+      "vidaBase": 100,
+      "tipos": ["bicho", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 12,
+          "damage": 15
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 16,
+          "damage": 30
+        },
+        {
+          "nombre": "Doble Ataque",
+          "tipo": "bicho",
+          "nivelMin": 20,
+          "damage": 25
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 25, "damage": 20 },
+        {
+          "nombre": "Pin Misil",
+          "tipo": "bicho",
+          "nivelMin": 30,
+          "damage": 25
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 35,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Pidgey",
+      "vidaBase": 100,
+      "tipos": ["normal", "volador"],
+      "ataques": [
+        {
+          "nombre": "Tornado",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 5,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 12,
+          "damage": 40
+        },
+        {
+          "nombre": "Remolino",
+          "tipo": "normal",
+          "nivelMin": 19,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Ala",
+          "tipo": "volador",
+          "nivelMin": 28,
+          "damage": 60
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 36,
+          "damage": 30
+        },
+        {
+          "nombre": "Mov. Espejo",
+          "tipo": "volador",
+          "nivelMin": 44,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Pidgeotto",
+      "vidaBase": 100,
+      "tipos": ["normal", "volador"],
+      "ataques": [
+        {
+          "nombre": "Tornado",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 5,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 12,
+          "damage": 40
+        },
+        {
+          "nombre": "Remolino",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Ala",
+          "tipo": "volador",
+          "nivelMin": 31,
+          "damage": 60
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 40,
+          "damage": 30
+        },
+        {
+          "nombre": "Mov. Espejo",
+          "tipo": "volador",
+          "nivelMin": 49,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Pidgeot",
+      "vidaBase": 100,
+      "tipos": ["normal", "volador"],
+      "ataques": [
+        {
+          "nombre": "Tornado",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 5,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 12,
+          "damage": 40
+        },
+        {
+          "nombre": "Remolino",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Ala",
+          "tipo": "volador",
+          "nivelMin": 31,
+          "damage": 60
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 44,
+          "damage": 30
+        },
+        {
+          "nombre": "Mov. Espejo",
+          "tipo": "volador",
+          "nivelMin": 54,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Rattata",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 7,
+          "damage": 40
+        },
+        {
+          "nombre": "Hipercolmillo",
+          "tipo": "normal",
+          "nivelMin": 14,
+          "damage": 80
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 23,
+          "damage": 30
+        },
+        {
+          "nombre": "Superdiente",
+          "tipo": "normal",
+          "nivelMin": 34,
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Raticate",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 7,
+          "damage": 40
+        },
+        {
+          "nombre": "Hipercolmillo",
+          "tipo": "normal",
+          "nivelMin": 14,
+          "damage": 80
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        {
+          "nombre": "Superdiente",
+          "tipo": "normal",
+          "nivelMin": 41,
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Spearow",
+      "vidaBase": 100,
+      "tipos": ["normal", "volador"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 9,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 15
+        },
+        {
+          "nombre": "Mov. Espejo",
+          "tipo": "volador",
+          "nivelMin": 22,
+          "damage": 30
+        },
+        {
+          "nombre": "Pico Taladro",
+          "tipo": "volador",
+          "nivelMin": 29,
+          "damage": 80
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 36,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Fearow",
+      "vidaBase": 100,
+      "tipos": ["normal", "volador"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 9,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 15
+        },
+        {
+          "nombre": "Mov. Espejo",
+          "tipo": "volador",
+          "nivelMin": 25,
+          "damage": 30
+        },
+        {
+          "nombre": "Pico Taladro",
+          "tipo": "volador",
+          "nivelMin": 34,
+          "damage": 80
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 43,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Ekans",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 10,
+          "damage": 15
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 17,
+          "damage": 60
+        },
+        {
+          "nombre": "Deslumbrar",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 38, "damage": 40 }
+      ]
+    },
+    {
+      "nombre": "Arbok",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 10,
+          "damage": 15
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 17,
+          "damage": 60
+        },
+        {
+          "nombre": "Deslumbrar",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 30
+        },
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 47, "damage": 40 }
+      ]
+    },
+    {
+      "nombre": "Pikachu",
+      "vidaBase": 100,
+      "tipos": ["electrico"],
+      "ataques": [
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 9,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 16,
+          "damage": 40
+        },
+        {
+          "nombre": "Doble Equipo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Atizar", "tipo": "normal", "nivelMin": 1, "damage": 80 },
+        {
+          "nombre": "Rayo",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 90
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 26,
+          "damage": 60
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 33,
+          "damage": 30
+        },
+        {
+          "nombre": "Trueno",
+          "tipo": "electrico",
+          "nivelMin": 43,
+          "damage": 110
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Raichu",
+      "vidaBase": 100,
+      "tipos": ["electrico"],
+      "ataques": [
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Sandshrew",
+      "vidaBase": 100,
+      "tipos": ["tierra"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 10,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 17,
+          "damage": 70
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 24,
+          "damage": 15
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 60
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 38,
+          "damage": 18
+        }
+      ]
+    },
+    {
+      "nombre": "Sandslash",
+      "vidaBase": 100,
+      "tipos": ["tierra"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 10,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 17,
+          "damage": 70
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 27,
+          "damage": 15
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 60
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 47,
+          "damage": 18
+        }
+      ]
+    },
+    {
+      "nombre": "Nidoran♀",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 8,
+          "damage": 40
+        },
+        {
+          "nombre": "Doble Patada",
+          "tipo": "lucha",
+          "nivelMin": 43,
+          "damage": 30
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 14,
+          "damage": 15
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 29,
+          "damage": 60
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 18
+        }
+      ]
+    },
+    {
+      "nombre": "Nidorina",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 8,
+          "damage": 40
+        },
+        {
+          "nombre": "Doble Patada",
+          "tipo": "lucha",
+          "nivelMin": 50,
+          "damage": 30
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 14,
+          "damage": 15
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 23,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 32,
+          "damage": 60
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 41,
+          "damage": 18
+        }
+      ]
+    },
+    {
+      "nombre": "Nidoqueen",
+      "vidaBase": 100,
+      "tipos": ["veneno", "tierra"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 85
+        },
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 8,
+          "damage": 40
+        },
+        {
+          "nombre": "Doble Patada",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 14,
+          "damage": 15
+        },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 23,
+          "damage": 85
+        }
+      ]
+    },
+    {
+      "nombre": "Nidoran♂",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 8,
+          "damage": 65
+        },
+        {
+          "nombre": "Doble Patada",
+          "tipo": "lucha",
+          "nivelMin": 43,
+          "damage": 30
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 14,
+          "damage": 15
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 29,
+          "damage": 15
+        },
+        {
+          "nombre": "Perforador",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Nidorino",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 8,
+          "damage": 65
+        },
+        {
+          "nombre": "Doble Patada",
+          "tipo": "lucha",
+          "nivelMin": 50,
+          "damage": 30
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 14,
+          "damage": 15
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 23,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 32,
+          "damage": 15
+        },
+        {
+          "nombre": "Perforador",
+          "tipo": "normal",
+          "nivelMin": 41,
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Nidoking",
+      "vidaBase": 100,
+      "tipos": ["veneno", "tierra"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        { "nombre": "Golpe", "tipo": "normal", "nivelMin": 1, "damage": 120 },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 8,
+          "damage": 65
+        },
+        {
+          "nombre": "Doble Patada",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 14,
+          "damage": 15
+        },
+        { "nombre": "Golpe", "tipo": "normal", "nivelMin": 23, "damage": 120 }
+      ]
+    },
+    {
+      "nombre": "Clefairy",
+      "vidaBase": 100,
+      "tipos": ["hada"],
+      "ataques": [
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Canto", "tipo": "normal", "nivelMin": 13, "damage": 30 },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 18,
+          "damage": 15
+        },
+        {
+          "nombre": "Reducción",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Metrónomo",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 48,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Clefable",
+      "vidaBase": 100,
+      "tipos": ["hada"],
+      "ataques": [
+        { "nombre": "Canto", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Reducción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Metrónomo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Vulpix",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 16,
+          "damage": 40
+        },
+        {
+          "nombre": "Rugido",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Confuso",
+          "tipo": "fantasma",
+          "nivelMin": 28,
+          "damage": 30
+        },
+        {
+          "nombre": "Lanzallamas",
+          "tipo": "fuego",
+          "nivelMin": 35,
+          "damage": 90
+        },
+        {
+          "nombre": "Giro Fuego",
+          "tipo": "fuego",
+          "nivelMin": 42,
+          "damage": 35
+        }
+      ]
+    },
+    {
+      "nombre": "Ninetales",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Rugido", "tipo": "normal", "nivelMin": 1, "damage": 30 }
+      ]
+    },
+    {
+      "nombre": "Jigglypuff",
+      "vidaBase": 100,
+      "tipos": ["normal", "hada"],
+      "ataques": [
+        { "nombre": "Canto", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 9,
+          "damage": 40
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 14,
+          "damage": 30
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 19,
+          "damage": 30
+        },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 15
+        },
+        {
+          "nombre": "Descanso",
+          "tipo": "psiquico",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 34,
+          "damage": 85
+        },
+        {
+          "nombre": "Doble Filo",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 120
+        }
+      ]
+    },
+    {
+      "nombre": "Wigglytuff",
+      "vidaBase": 100,
+      "tipos": ["normal", "hada"],
+      "ataques": [
+        { "nombre": "Canto", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        }
+      ]
+    },
+    {
+      "nombre": "Zubat",
+      "vidaBase": 100,
+      "tipos": ["veneno", "volador"],
+      "ataques": [
+        {
+          "nombre": "Chupavidas",
+          "tipo": "bicho",
+          "nivelMin": 1,
+          "damage": 80
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 10,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 15,
+          "damage": 60
+        },
+        {
+          "nombre": "Rayo Confuso",
+          "tipo": "fantasma",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Ala",
+          "tipo": "volador",
+          "nivelMin": 28,
+          "damage": 60
+        },
+        { "nombre": "Niebla", "tipo": "hielo", "nivelMin": 36, "damage": 30 }
+      ]
+    },
+    {
+      "nombre": "Golbat",
+      "vidaBase": 100,
+      "tipos": ["veneno", "volador"],
+      "ataques": [
+        {
+          "nombre": "Chupavidas",
+          "tipo": "bicho",
+          "nivelMin": 1,
+          "damage": 80
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 1,
+          "damage": 60
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 10,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 15,
+          "damage": 60
+        },
+        {
+          "nombre": "Rayo Confuso",
+          "tipo": "fantasma",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Ala",
+          "tipo": "volador",
+          "nivelMin": 32,
+          "damage": 60
+        },
+        { "nombre": "Niebla", "tipo": "hielo", "nivelMin": 43, "damage": 30 }
+      ]
+    },
+    {
+      "nombre": "Oddish",
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Absorber",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 20
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 17,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 19,
+          "damage": 30
+        },
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 24, "damage": 40 },
+        {
+          "nombre": "Danza Pétalo",
+          "tipo": "planta",
+          "nivelMin": 33,
+          "damage": 120
+        },
+        {
+          "nombre": "Rayo Solar",
+          "tipo": "planta",
+          "nivelMin": 46,
+          "damage": 120
+        }
+      ]
+    },
+    {
+      "nombre": "Gloom",
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Absorber",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 20
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 17,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 19,
+          "damage": 30
+        },
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 28, "damage": 40 },
+        {
+          "nombre": "Danza Pétalo",
+          "tipo": "planta",
+          "nivelMin": 38,
+          "damage": 120
+        },
+        {
+          "nombre": "Rayo Solar",
+          "tipo": "planta",
+          "nivelMin": 52,
+          "damage": 120
+        }
+      ]
+    },
+    {
+      "nombre": "Vileplume",
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Danza Pétalo",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 120
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 17,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 19,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Paras",
+      "vidaBase": 100,
+      "tipos": ["bicho", "planta"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 13,
+          "damage": 30
+        },
+        {
+          "nombre": "Chupavidas",
+          "tipo": "bicho",
+          "nivelMin": 20,
+          "damage": 80
+        },
+        {
+          "nombre": "Espora",
+          "tipo": "planta",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 34,
+          "damage": 70
+        },
+        {
+          "nombre": "Desarrollo",
+          "tipo": "normal",
+          "nivelMin": 41,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Parasect",
+      "vidaBase": 100,
+      "tipos": ["bicho", "planta"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Chupavidas",
+          "tipo": "bicho",
+          "nivelMin": 1,
+          "damage": 80
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 13,
+          "damage": 30
+        },
+        {
+          "nombre": "Chupavidas",
+          "tipo": "bicho",
+          "nivelMin": 20,
+          "damage": 80
+        },
+        {
+          "nombre": "Espora",
+          "tipo": "planta",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 70
+        },
+        {
+          "nombre": "Desarrollo",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Venonat",
+      "vidaBase": 100,
+      "tipos": ["bicho", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Chupavidas",
+          "tipo": "bicho",
+          "nivelMin": 27,
+          "damage": 80
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Psicorrayo",
+          "tipo": "psiquico",
+          "nivelMin": 35,
+          "damage": 65
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 38,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 43,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Venomoth",
+      "vidaBase": 100,
+      "tipos": ["bicho", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Chupavidas",
+          "tipo": "bicho",
+          "nivelMin": 1,
+          "damage": 80
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Chupavidas",
+          "tipo": "bicho",
+          "nivelMin": 27,
+          "damage": 80
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Psicorrayo",
+          "tipo": "psiquico",
+          "nivelMin": 38,
+          "damage": 65
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 43,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 50,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Diglett",
+      "vidaBase": 100,
+      "tipos": ["tierra"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Excavar",
+          "tipo": "tierra",
+          "nivelMin": 19,
+          "damage": 80
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 70
+        },
+        {
+          "nombre": "Terremoto",
+          "tipo": "tierra",
+          "nivelMin": 40,
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "nombre": "Dugtrio",
+      "vidaBase": 100,
+      "tipos": ["tierra"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Excavar",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 80
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Excavar",
+          "tipo": "tierra",
+          "nivelMin": 19,
+          "damage": 80
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 70
+        },
+        {
+          "nombre": "Terremoto",
+          "tipo": "tierra",
+          "nivelMin": 47,
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "nombre": "Meowth",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 12,
+          "damage": 60
+        },
+        {
+          "nombre": "Día de Pago",
+          "tipo": "normal",
+          "nivelMin": 17,
+          "damage": 40
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 33,
+          "damage": 18
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 44,
+          "damage": 70
+        }
+      ]
+    },
+    {
+      "nombre": "Persian",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 1,
+          "damage": 60
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 12,
+          "damage": 60
+        },
+        {
+          "nombre": "Día de Pago",
+          "tipo": "normal",
+          "nivelMin": 17,
+          "damage": 40
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 37,
+          "damage": 18
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 51,
+          "damage": 70
+        }
+      ]
+    },
+    {
+      "nombre": "Psyduck",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 28,
+          "damage": 30
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 36,
+          "damage": 50
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 18
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 52,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Golduck",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 28,
+          "damage": 30
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 39,
+          "damage": 50
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 18
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 59,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Mankey",
+      "vidaBase": 100,
+      "tipos": ["lucha"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Patada Baja",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Golpe Kárate",
+          "tipo": "lucha",
+          "nivelMin": 15,
+          "damage": 50
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 18
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        {
+          "nombre": "Mov. Sísmico",
+          "tipo": "lucha",
+          "nivelMin": 33,
+          "damage": 1
+        },
+        {
+          "nombre": "Golpe",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 120
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Primeape",
+      "vidaBase": 100,
+      "tipos": ["lucha"],
+      "ataques": [
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 18
+        },
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Patada Baja",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Golpe Kárate",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Patada Baja",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Golpe Kárate",
+          "tipo": "lucha",
+          "nivelMin": 15,
+          "damage": 50
+        },
+        {
+          "nombre": "Golpes Furia",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 18
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 1, "damage": 20 },
+        {
+          "nombre": "Mov. Sísmico",
+          "tipo": "lucha",
+          "nivelMin": 37,
+          "damage": 1
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Golpe", "tipo": "normal", "nivelMin": 46, "damage": 120 }
+      ]
+    },
+    {
+      "nombre": "Growlithe",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 1,
+          "damage": 60
+        },
+        { "nombre": "Rugido", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 18, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 23,
+          "damage": 30
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 90
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Lanzallamas",
+          "tipo": "fuego",
+          "nivelMin": 50,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Arcanine",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        { "nombre": "Rugido", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Derribo", "tipo": "normal", "nivelMin": 1, "damage": 90 }
+      ]
+    },
+    {
+      "nombre": "Poliwag",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 16,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 19,
+          "damage": 40
+        },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 15
+        },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 85
+        },
+        {
+          "nombre": "Amnesia",
+          "tipo": "psiquico",
+          "nivelMin": 38,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 45,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Poliwhirl",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 16,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 19,
+          "damage": 40
+        },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 26,
+          "damage": 15
+        },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 33,
+          "damage": 85
+        },
+        {
+          "nombre": "Amnesia",
+          "tipo": "psiquico",
+          "nivelMin": 41,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 49,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Poliwrath",
+      "vidaBase": 100,
+      "tipos": ["agua", "lucha"],
+      "ataques": [
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 85
+        },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 16,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 19,
+          "damage": 40
+        }
+      ]
+    },
+    {
+      "nombre": "Abra",
+      "vidaBase": 100,
+      "tipos": ["psiquico"],
+      "ataques": [
+        {
+          "nombre": "Teletransporte",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Kadabra",
+      "vidaBase": 100,
+      "tipos": ["psiquico"],
+      "ataques": [
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Teletransporte",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Kinético",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 16,
+          "damage": 50
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Psicorrayo",
+          "tipo": "psiquico",
+          "nivelMin": 27,
+          "damage": 65
+        },
+        {
+          "nombre": "Recuperación",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 38,
+          "damage": 90
+        },
+        {
+          "nombre": "Reflejo",
+          "tipo": "psiquico",
+          "nivelMin": 42,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Alakazam",
+      "vidaBase": 100,
+      "tipos": ["psiquico"],
+      "ataques": [
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Teletransporte",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Kinético",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 16,
+          "damage": 50
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Psicorrayo",
+          "tipo": "psiquico",
+          "nivelMin": 27,
+          "damage": 65
+        },
+        {
+          "nombre": "Recuperación",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 38,
+          "damage": 90
+        },
+        {
+          "nombre": "Reflejo",
+          "tipo": "psiquico",
+          "nivelMin": 42,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Machop",
+      "vidaBase": 100,
+      "tipos": ["lucha"],
+      "ataques": [
+        {
+          "nombre": "Golpe Kárate",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Patada Baja",
+          "tipo": "lucha",
+          "nivelMin": 20,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 30
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 32,
+          "damage": 30
+        },
+        {
+          "nombre": "Mov. Sísmico",
+          "tipo": "lucha",
+          "nivelMin": 39,
+          "damage": 1
+        },
+        {
+          "nombre": "Sumisión",
+          "tipo": "lucha",
+          "nivelMin": 46,
+          "damage": 80
+        }
+      ]
+    },
+    {
+      "nombre": "Machoke",
+      "vidaBase": 100,
+      "tipos": ["lucha"],
+      "ataques": [
+        {
+          "nombre": "Golpe Kárate",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Patada Baja",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Patada Baja",
+          "tipo": "lucha",
+          "nivelMin": 20,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 30
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 30
+        },
+        {
+          "nombre": "Mov. Sísmico",
+          "tipo": "lucha",
+          "nivelMin": 44,
+          "damage": 1
+        },
+        {
+          "nombre": "Sumisión",
+          "tipo": "lucha",
+          "nivelMin": 52,
+          "damage": 80
+        }
+      ]
+    },
+    {
+      "nombre": "Machamp",
+      "vidaBase": 100,
+      "tipos": ["lucha"],
+      "ataques": [
+        {
+          "nombre": "Golpe Kárate",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Patada Baja",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Patada Baja",
+          "tipo": "lucha",
+          "nivelMin": 20,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 30
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 30
+        },
+        {
+          "nombre": "Mov. Sísmico",
+          "tipo": "lucha",
+          "nivelMin": 44,
+          "damage": 1
+        },
+        {
+          "nombre": "Sumisión",
+          "tipo": "lucha",
+          "nivelMin": 52,
+          "damage": 80
+        }
+      ]
+    },
+    {
+      "nombre": "Bellsprout",
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Látigo Cepa",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 45
+        },
+        {
+          "nombre": "Desarrollo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 13,
+          "damage": 15
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 18,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 21,
+          "damage": 30
+        },
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 26, "damage": 40 },
+        {
+          "nombre": "Hoja Afilada",
+          "tipo": "planta",
+          "nivelMin": 33,
+          "damage": 55
+        },
+        { "nombre": "Atizar", "tipo": "normal", "nivelMin": 42, "damage": 80 }
+      ]
+    },
+    {
+      "nombre": "Weepinbell",
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Látigo Cepa",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 45
+        },
+        {
+          "nombre": "Desarrollo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 13,
+          "damage": 15
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 18,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 23,
+          "damage": 30
+        },
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 29, "damage": 40 },
+        {
+          "nombre": "Hoja Afilada",
+          "tipo": "planta",
+          "nivelMin": 38,
+          "damage": 55
+        },
+        { "nombre": "Atizar", "tipo": "normal", "nivelMin": 49, "damage": 80 }
+      ]
+    },
+    {
+      "nombre": "Victreebel",
+      "vidaBase": 100,
+      "tipos": ["planta", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Hoja Afilada",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 55
+        },
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 13,
+          "damage": 15
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 18,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Tentacool",
+      "vidaBase": 100,
+      "tipos": ["agua", "veneno"],
+      "ataques": [
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 7,
+          "damage": 30
+        },
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 13,
+          "damage": 15
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 18,
+          "damage": 15
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 22,
+          "damage": 40
+        },
+        {
+          "nombre": "Restricción",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 10
+        },
+        {
+          "nombre": "Barrera",
+          "tipo": "psiquico",
+          "nivelMin": 33,
+          "damage": 30
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 40,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 48,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Tentacruel",
+      "vidaBase": 100,
+      "tipos": ["agua", "veneno"],
+      "ataques": [
+        { "nombre": "Ácido", "tipo": "veneno", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 7,
+          "damage": 30
+        },
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 13,
+          "damage": 15
+        },
+        {
+          "nombre": "Picotazo Ven",
+          "tipo": "veneno",
+          "nivelMin": 18,
+          "damage": 15
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 22,
+          "damage": 40
+        },
+        {
+          "nombre": "Restricción",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 10
+        },
+        {
+          "nombre": "Barrera",
+          "tipo": "psiquico",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 50,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Geodude",
+      "vidaBase": 100,
+      "tipos": ["roca", "tierra"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 11,
+          "damage": 30
+        },
+        {
+          "nombre": "Lanzarrocas",
+          "tipo": "roca",
+          "nivelMin": 16,
+          "damage": 50
+        },
+        {
+          "nombre": "Autodestrucción",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 200
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 26,
+          "damage": 30
+        },
+        {
+          "nombre": "Terremoto",
+          "tipo": "tierra",
+          "nivelMin": 31,
+          "damage": 100
+        },
+        {
+          "nombre": "Explosión",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 250
+        }
+      ]
+    },
+    {
+      "nombre": "Graveler",
+      "vidaBase": 100,
+      "tipos": ["roca", "tierra"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 11,
+          "damage": 30
+        },
+        {
+          "nombre": "Lanzarrocas",
+          "tipo": "roca",
+          "nivelMin": 16,
+          "damage": 50
+        },
+        {
+          "nombre": "Autodestrucción",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 200
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Terremoto",
+          "tipo": "tierra",
+          "nivelMin": 36,
+          "damage": 100
+        },
+        {
+          "nombre": "Explosión",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 250
+        }
+      ]
+    },
+    {
+      "nombre": "Golem",
+      "vidaBase": 100,
+      "tipos": ["roca", "tierra"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 11,
+          "damage": 30
+        },
+        {
+          "nombre": "Lanzarrocas",
+          "tipo": "roca",
+          "nivelMin": 16,
+          "damage": 50
+        },
+        {
+          "nombre": "Autodestrucción",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 200
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Terremoto",
+          "tipo": "tierra",
+          "nivelMin": 36,
+          "damage": 100
+        },
+        {
+          "nombre": "Explosión",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 250
+        }
+      ]
+    },
+    {
+      "nombre": "Ponyta",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 32,
+          "damage": 65
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        {
+          "nombre": "Giro Fuego",
+          "tipo": "fuego",
+          "nivelMin": 39,
+          "damage": 35
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 90
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 48,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Rapidash",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 32,
+          "damage": 65
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        {
+          "nombre": "Giro Fuego",
+          "tipo": "fuego",
+          "nivelMin": 39,
+          "damage": 35
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 47,
+          "damage": 90
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 55,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Slowpoke",
+      "vidaBase": 100,
+      "tipos": ["agua", "psiquico"],
+      "ataques": [
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 18,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 22,
+          "damage": 70
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 33,
+          "damage": 40
+        },
+        {
+          "nombre": "Amnesia",
+          "tipo": "psiquico",
+          "nivelMin": 40,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 48,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Slowbro",
+      "vidaBase": 100,
+      "tipos": ["agua", "psiquico"],
+      "ataques": [
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 70
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 18,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 22,
+          "damage": 70
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 33,
+          "damage": 40
+        },
+        { "nombre": "Refugio", "tipo": "agua", "nivelMin": 37, "damage": 30 },
+        {
+          "nombre": "Amnesia",
+          "tipo": "psiquico",
+          "nivelMin": 44,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 55,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Magnemite",
+      "vidaBase": 100,
+      "tipos": ["electrico", "acero"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Bomba Sónica",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 1
+        },
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 25,
+          "damage": 40
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 41,
+          "damage": 60
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 47,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Magneton",
+      "vidaBase": 100,
+      "tipos": ["electrico", "acero"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Bomba Sónica",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Bomba Sónica",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 1
+        },
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 25,
+          "damage": 40
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 38,
+          "damage": 30
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 46,
+          "damage": 60
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 54,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Farfetchd",
+      "vidaBase": 100,
+      "tipos": ["normal", "volador"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 7,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 15
+        },
+        {
+          "nombre": "Danza Espada",
+          "tipo": "normal",
+          "nivelMin": 23,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 70
+        }
+      ]
+    },
+    {
+      "nombre": "Doduo",
+      "vidaBase": 100,
+      "tipos": ["normal", "volador"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 15
+        },
+        {
+          "nombre": "Pico Taladro",
+          "tipo": "volador",
+          "nivelMin": 30,
+          "damage": 80
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 36, "damage": 20 },
+        {
+          "nombre": "Triataque",
+          "tipo": "normal",
+          "nivelMin": 40,
+          "damage": 80
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 44,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Dodrio",
+      "vidaBase": 100,
+      "tipos": ["normal", "volador"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 15
+        },
+        {
+          "nombre": "Pico Taladro",
+          "tipo": "volador",
+          "nivelMin": 30,
+          "damage": 80
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 39, "damage": 20 },
+        {
+          "nombre": "Triataque",
+          "tipo": "normal",
+          "nivelMin": 45,
+          "damage": 80
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 51,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Seel",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 70
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Aurora",
+          "tipo": "hielo",
+          "nivelMin": 35,
+          "damage": 65
+        },
+        {
+          "nombre": "Descanso",
+          "tipo": "psiquico",
+          "nivelMin": 40,
+          "damage": 30
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 45,
+          "damage": 90
+        },
+        {
+          "nombre": "Rayo Hielo",
+          "tipo": "hielo",
+          "nivelMin": 50,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Dewgong",
+      "vidaBase": 100,
+      "tipos": ["agua", "hielo"],
+      "ataques": [
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 70
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Aurora",
+          "tipo": "hielo",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Aurora",
+          "tipo": "hielo",
+          "nivelMin": 35,
+          "damage": 65
+        },
+        {
+          "nombre": "Descanso",
+          "tipo": "psiquico",
+          "nivelMin": 44,
+          "damage": 30
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 50,
+          "damage": 90
+        },
+        {
+          "nombre": "Rayo Hielo",
+          "tipo": "hielo",
+          "nivelMin": 56,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Grimer",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Gas Venenoso",
+          "tipo": "veneno",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Reducción",
+          "tipo": "normal",
+          "nivelMin": 33,
+          "damage": 30
+        },
+        {
+          "nombre": "Residuos",
+          "tipo": "veneno",
+          "nivelMin": 37,
+          "damage": 65
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 42,
+          "damage": 30
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 30
+        },
+        {
+          "nombre": "Armadura Ácida",
+          "tipo": "veneno",
+          "nivelMin": 55,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Muk",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Gas Venenoso",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Gas Venenoso",
+          "tipo": "veneno",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Reducción",
+          "tipo": "normal",
+          "nivelMin": 33,
+          "damage": 30
+        },
+        {
+          "nombre": "Residuos",
+          "tipo": "veneno",
+          "nivelMin": 37,
+          "damage": 65
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 45,
+          "damage": 30
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 53,
+          "damage": 30
+        },
+        {
+          "nombre": "Armadura Ácida",
+          "tipo": "veneno",
+          "nivelMin": 60,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Shellder",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Refugio", "tipo": "agua", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 18,
+          "damage": 30
+        },
+        { "nombre": "Tenaza", "tipo": "agua", "nivelMin": 23, "damage": 35 },
+        {
+          "nombre": "Rayo Aurora",
+          "tipo": "hielo",
+          "nivelMin": 30,
+          "damage": 65
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Hielo",
+          "tipo": "hielo",
+          "nivelMin": 50,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Cloyster",
+      "vidaBase": 100,
+      "tipos": ["agua", "hielo"],
+      "ataques": [
+        { "nombre": "Refugio", "tipo": "agua", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Tenaza", "tipo": "agua", "nivelMin": 1, "damage": 35 },
+        {
+          "nombre": "Rayo Aurora",
+          "tipo": "hielo",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Clavo Cañón",
+          "tipo": "normal",
+          "nivelMin": 50,
+          "damage": 20
+        }
+      ]
+    },
+    {
+      "nombre": "Gastly",
+      "vidaBase": 100,
+      "tipos": ["fantasma", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Lengüetazo",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Confuso",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Tinieblas",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        {
+          "nombre": "Come Sueños",
+          "tipo": "psiquico",
+          "nivelMin": 35,
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "nombre": "Haunter",
+      "vidaBase": 100,
+      "tipos": ["fantasma", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Lengüetazo",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Confuso",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Tinieblas",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Come Sueños",
+          "tipo": "psiquico",
+          "nivelMin": 38,
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "nombre": "Gengar",
+      "vidaBase": 100,
+      "tipos": ["fantasma", "veneno"],
+      "ataques": [
+        {
+          "nombre": "Lengüetazo",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Confuso",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Tinieblas",
+          "tipo": "fantasma",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Come Sueños",
+          "tipo": "psiquico",
+          "nivelMin": 38,
+          "damage": 100
+        }
+      ]
+    },
+    {
+      "nombre": "Onix",
+      "vidaBase": 100,
+      "tipos": ["roca", "tierra"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Atadura",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 15
+        },
+        {
+          "nombre": "Lanzarrocas",
+          "tipo": "roca",
+          "nivelMin": 19,
+          "damage": 50
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 25, "damage": 20 },
+        {
+          "nombre": "Atizar",
+          "tipo": "normal",
+          "nivelMin": 33,
+          "damage": 80
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Drowzee",
+      "vidaBase": 100,
+      "tipos": ["psiquico"],
+      "ataques": [
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 12,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 17,
+          "damage": 50
+        },
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 70
+        },
+        {
+          "nombre": "Gas Venenoso",
+          "tipo": "veneno",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 32,
+          "damage": 90
+        },
+        {
+          "nombre": "Meditación",
+          "tipo": "psiquico",
+          "nivelMin": 37,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Hypno",
+      "vidaBase": 100,
+      "tipos": ["psiquico"],
+      "ataques": [
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 12,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 17,
+          "damage": 50
+        },
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 70
+        },
+        {
+          "nombre": "Gas Venenoso",
+          "tipo": "veneno",
+          "nivelMin": 33,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 37,
+          "damage": 90
+        },
+        {
+          "nombre": "Meditación",
+          "tipo": "psiquico",
+          "nivelMin": 43,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Krabby",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Agarre",
+          "tipo": "normal",
+          "nivelMin": 20,
+          "damage": 55
+        },
+        {
+          "nombre": "Guillotina",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 1
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 65
+        },
+        {
+          "nombre": "Martillazo",
+          "tipo": "agua",
+          "nivelMin": 35,
+          "damage": 100
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 40,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Kingler",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Agarre", "tipo": "normal", "nivelMin": 1, "damage": 55 },
+        {
+          "nombre": "Agarre",
+          "tipo": "normal",
+          "nivelMin": 20,
+          "damage": 55
+        },
+        {
+          "nombre": "Guillotina",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 1
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 34,
+          "damage": 65
+        },
+        {
+          "nombre": "Martillazo",
+          "tipo": "agua",
+          "nivelMin": 42,
+          "damage": 100
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 49,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Voltorb",
+      "vidaBase": 100,
+      "tipos": ["electrico"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Bomba Sónica",
+          "tipo": "normal",
+          "nivelMin": 17,
+          "damage": 1
+        },
+        {
+          "nombre": "Autodestrucción",
+          "tipo": "normal",
+          "nivelMin": 22,
+          "damage": 200
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 60
+        },
+        {
+          "nombre": "Explosión",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 250
+        }
+      ]
+    },
+    {
+      "nombre": "Electrode",
+      "vidaBase": 100,
+      "tipos": ["electrico"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Bomba Sónica",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Bomba Sónica",
+          "tipo": "normal",
+          "nivelMin": 17,
+          "damage": 1
+        },
+        {
+          "nombre": "Autodestrucción",
+          "tipo": "normal",
+          "nivelMin": 22,
+          "damage": 200
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 29,
+          "damage": 30
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 40,
+          "damage": 60
+        },
+        {
+          "nombre": "Explosión",
+          "tipo": "normal",
+          "nivelMin": 50,
+          "damage": 250
+        }
+      ]
+    },
+    {
+      "nombre": "Exeggcute",
+      "vidaBase": 100,
+      "tipos": ["planta", "psiquico"],
+      "ataques": [
+        { "nombre": "Presa", "tipo": "normal", "nivelMin": 1, "damage": 15 },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Reflejo",
+          "tipo": "psiquico",
+          "nivelMin": 25,
+          "damage": 30
+        },
+        {
+          "nombre": "Drenadoras",
+          "tipo": "planta",
+          "nivelMin": 28,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 32,
+          "damage": 30
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 37,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Solar",
+          "tipo": "planta",
+          "nivelMin": 42,
+          "damage": 120
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 48,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Exeggutor",
+      "vidaBase": 100,
+      "tipos": ["planta", "psiquico"],
+      "ataques": [
+        { "nombre": "Presa", "tipo": "normal", "nivelMin": 1, "damage": 15 },
+        {
+          "nombre": "Hipnosis",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 28,
+          "damage": 65
+        }
+      ]
+    },
+    {
+      "nombre": "Cubone",
+      "vidaBase": 100,
+      "tipos": ["tierra"],
+      "ataques": [
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Hueso Palo",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 70
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 30
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpe",
+          "tipo": "normal",
+          "nivelMin": 38,
+          "damage": 120
+        },
+        {
+          "nombre": "Huesomerang",
+          "tipo": "tierra",
+          "nivelMin": 43,
+          "damage": 50
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 46, "damage": 20 }
+      ]
+    },
+    {
+      "nombre": "Marowak",
+      "vidaBase": 100,
+      "tipos": ["tierra"],
+      "ataques": [
+        {
+          "nombre": "Hueso Palo",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Hueso Palo",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 70
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 30
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 33,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpe",
+          "tipo": "normal",
+          "nivelMin": 41,
+          "damage": 120
+        },
+        {
+          "nombre": "Huesomerang",
+          "tipo": "tierra",
+          "nivelMin": 48,
+          "damage": 50
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 55, "damage": 20 }
+      ]
+    },
+    {
+      "nombre": "Hitmonlee",
+      "vidaBase": 100,
+      "tipos": ["lucha"],
+      "ataques": [
+        {
+          "nombre": "Doble Patada",
+          "tipo": "lucha",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Meditación",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Patada Giro",
+          "tipo": "lucha",
+          "nivelMin": 33,
+          "damage": 60
+        },
+        {
+          "nombre": "Patada Salto",
+          "tipo": "lucha",
+          "nivelMin": 38,
+          "damage": 100
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 30
+        },
+        {
+          "nombre": "Pat. Salto Alta",
+          "tipo": "lucha",
+          "nivelMin": 48,
+          "damage": 130
+        },
+        {
+          "nombre": "Megapatada",
+          "tipo": "normal",
+          "nivelMin": 53,
+          "damage": 120
+        }
+      ]
+    },
+    {
+      "nombre": "Hitmonchan",
+      "vidaBase": 100,
+      "tipos": ["lucha"],
+      "ataques": [
+        {
+          "nombre": "Puño Cometa",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 18
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Puño Fuego",
+          "tipo": "fuego",
+          "nivelMin": 33,
+          "damage": 75
+        },
+        {
+          "nombre": "Puño Hielo",
+          "tipo": "hielo",
+          "nivelMin": 38,
+          "damage": 75
+        },
+        {
+          "nombre": "Puño Trueno",
+          "tipo": "electrico",
+          "nivelMin": 43,
+          "damage": 75
+        },
+        {
+          "nombre": "Megapuño",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 80
+        },
+        {
+          "nombre": "Contraataque",
+          "tipo": "lucha",
+          "nivelMin": 53,
+          "damage": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Lickitung",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 7,
+          "damage": 65
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 30
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 23,
+          "damage": 30
+        },
+        {
+          "nombre": "Atizar",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 80
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Koffing",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Polución",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Residuos",
+          "tipo": "veneno",
+          "nivelMin": 32,
+          "damage": 65
+        },
+        {
+          "nombre": "Pantalla de Humo",
+          "tipo": "normal",
+          "nivelMin": 37,
+          "damage": 30
+        },
+        {
+          "nombre": "Autodestrucción",
+          "tipo": "normal",
+          "nivelMin": 40,
+          "damage": 200
+        },
+        { "nombre": "Niebla", "tipo": "hielo", "nivelMin": 45, "damage": 30 },
+        {
+          "nombre": "Explosión",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 250
+        }
+      ]
+    },
+    {
+      "nombre": "Weezing",
+      "vidaBase": 100,
+      "tipos": ["veneno"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Polución",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Residuos",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Residuos",
+          "tipo": "veneno",
+          "nivelMin": 32,
+          "damage": 65
+        },
+        {
+          "nombre": "Pantalla de Humo",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Autodestrucción",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 200
+        },
+        { "nombre": "Niebla", "tipo": "hielo", "nivelMin": 49, "damage": 30 },
+        {
+          "nombre": "Explosión",
+          "tipo": "normal",
+          "nivelMin": 53,
+          "damage": 250
+        }
+      ]
+    },
+    {
+      "nombre": "Rhyhorn",
+      "vidaBase": 100,
+      "tipos": ["tierra", "roca"],
+      "ataques": [
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 65
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 40,
+          "damage": 15
+        },
+        {
+          "nombre": "Perforador",
+          "tipo": "normal",
+          "nivelMin": 45,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 50,
+          "damage": 30
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 55,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Rhydon",
+      "vidaBase": 100,
+      "tipos": ["tierra", "roca"],
+      "ataques": [
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 65
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 40,
+          "damage": 15
+        },
+        {
+          "nombre": "Perforador",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 55,
+          "damage": 30
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 64,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Chansey",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        { "nombre": "Canto", "tipo": "normal", "nivelMin": 24, "damage": 30 },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Reducción",
+          "tipo": "normal",
+          "nivelMin": 38,
+          "damage": 30
+        },
+        {
+          "nombre": "Rizo Defensa",
+          "tipo": "normal",
+          "nivelMin": 44,
+          "damage": 30
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 48,
+          "damage": 30
+        },
+        {
+          "nombre": "Doble Filo",
+          "tipo": "normal",
+          "nivelMin": 54,
+          "damage": 120
+        }
+      ]
+    },
+    {
+      "nombre": "Tangela",
+      "vidaBase": 100,
+      "tipos": ["planta"],
+      "ataques": [
+        {
+          "nombre": "Restricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 10
+        },
+        {
+          "nombre": "Atadura",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Absorber",
+          "tipo": "planta",
+          "nivelMin": 29,
+          "damage": 20
+        },
+        {
+          "nombre": "Látigo Cepa",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 45
+        },
+        {
+          "nombre": "Polvo Veneno",
+          "tipo": "veneno",
+          "nivelMin": 32,
+          "damage": 30
+        },
+        {
+          "nombre": "Paralizador",
+          "tipo": "planta",
+          "nivelMin": 36,
+          "damage": 30
+        },
+        {
+          "nombre": "Somnífero",
+          "tipo": "planta",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Atizar",
+          "tipo": "normal",
+          "nivelMin": 45,
+          "damage": 80
+        },
+        {
+          "nombre": "Desarrollo",
+          "tipo": "normal",
+          "nivelMin": 49,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Kangaskhan",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Puño Cometa",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 18
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 1, "damage": 20 },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 26,
+          "damage": 60
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Megapuño",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 80
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 41,
+          "damage": 30
+        },
+        {
+          "nombre": "Puño Mareo",
+          "tipo": "normal",
+          "nivelMin": 46,
+          "damage": 70
+        }
+      ]
+    },
+    {
+      "nombre": "Horsea",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Pantalla de Humo",
+          "tipo": "normal",
+          "nivelMin": 19,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 30,
+          "damage": 40
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 37,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 45,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Seadra",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        { "nombre": "Burbuja", "tipo": "agua", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Pantalla de Humo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Pantalla de Humo",
+          "tipo": "normal",
+          "nivelMin": 19,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 30,
+          "damage": 40
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 41,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 52,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Goldeen",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 19,
+          "damage": 30
+        },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 65
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 15
+        },
+        { "nombre": "Cascada", "tipo": "agua", "nivelMin": 37, "damage": 80 },
+        {
+          "nombre": "Perforador",
+          "tipo": "normal",
+          "nivelMin": 45,
+          "damage": 1
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 54,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Seaking",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        { "nombre": "Látigo", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 19,
+          "damage": 30
+        },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 65
+        },
+        {
+          "nombre": "Ataque Furia",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 15
+        },
+        { "nombre": "Cascada", "tipo": "agua", "nivelMin": 39, "damage": 80 },
+        {
+          "nombre": "Perforador",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 1
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 54,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Staryu",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 17,
+          "damage": 40
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 22,
+          "damage": 30
+        },
+        {
+          "nombre": "Recuperación",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 30
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 32,
+          "damage": 60
+        },
+        {
+          "nombre": "Reducción",
+          "tipo": "normal",
+          "nivelMin": 37,
+          "damage": 30
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 42,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 47,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Starmie",
+      "vidaBase": 100,
+      "tipos": ["agua", "psiquico"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Mr. Mime",
+      "vidaBase": 100,
+      "tipos": ["psiquico", "hada"],
+      "ataques": [
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Barrera",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 15,
+          "damage": 50
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 23,
+          "damage": 30
+        },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 15
+        },
+        {
+          "nombre": "Meditación",
+          "tipo": "psiquico",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Sustituto",
+          "tipo": "normal",
+          "nivelMin": 47,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Scyther",
+      "vidaBase": 100,
+      "tipos": ["bicho", "volador"],
+      "ataques": [
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 17,
+          "damage": 30
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Doble Equipo",
+          "tipo": "normal",
+          "nivelMin": 24,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 29,
+          "damage": 70
+        },
+        {
+          "nombre": "Danza Espada",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 42,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Ala",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 60
+        }
+      ]
+    },
+    {
+      "nombre": "Jynx",
+      "vidaBase": 100,
+      "tipos": ["hielo", "psiquico"],
+      "ataques": [
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Beso Amoroso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Lengüetazo",
+          "tipo": "fantasma",
+          "nivelMin": 18,
+          "damage": 30
+        },
+        {
+          "nombre": "Doble Bofetón",
+          "tipo": "normal",
+          "nivelMin": 23,
+          "damage": 15
+        },
+        {
+          "nombre": "Puño Hielo",
+          "tipo": "hielo",
+          "nivelMin": 31,
+          "damage": 75
+        },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 85
+        },
+        {
+          "nombre": "Golpe",
+          "tipo": "normal",
+          "nivelMin": 47,
+          "damage": 120
+        },
+        {
+          "nombre": "Ventisca",
+          "tipo": "hielo",
+          "nivelMin": 58,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Electabuzz",
+      "vidaBase": 100,
+      "tipos": ["electrico"],
+      "ataques": [
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 34,
+          "damage": 40
+        },
+        {
+          "nombre": "Chirrido",
+          "tipo": "normal",
+          "nivelMin": 37,
+          "damage": 30
+        },
+        {
+          "nombre": "Puño Trueno",
+          "tipo": "electrico",
+          "nivelMin": 42,
+          "damage": 75
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 49,
+          "damage": 30
+        },
+        {
+          "nombre": "Trueno",
+          "tipo": "electrico",
+          "nivelMin": 54,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Magmar",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Confuso",
+          "tipo": "fantasma",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Puño Fuego",
+          "tipo": "fuego",
+          "nivelMin": 43,
+          "damage": 75
+        },
+        {
+          "nombre": "Pantalla de Humo",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 30
+        },
+        {
+          "nombre": "Polución",
+          "tipo": "veneno",
+          "nivelMin": 52,
+          "damage": 30
+        },
+        {
+          "nombre": "Lanzallamas",
+          "tipo": "fuego",
+          "nivelMin": 55,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Pinsir",
+      "vidaBase": 100,
+      "tipos": ["bicho"],
+      "ataques": [
+        { "nombre": "Agarre", "tipo": "normal", "nivelMin": 1, "damage": 55 },
+        {
+          "nombre": "Atadura",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Mov. Sísmico",
+          "tipo": "lucha",
+          "nivelMin": 25,
+          "damage": 1
+        },
+        {
+          "nombre": "Guillotina",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 1
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 36,
+          "damage": 30
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 43,
+          "damage": 30
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 49,
+          "damage": 70
+        },
+        {
+          "nombre": "Danza Espada",
+          "tipo": "normal",
+          "nivelMin": 54,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Tauros",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Pisotón",
+          "tipo": "normal",
+          "nivelMin": 21,
+          "damage": 65
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 28,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 44, "damage": 20 },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 51,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Magikarp",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Salpicadura",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 15,
+          "damage": 40
+        }
+      ]
+    },
+    {
+      "nombre": "Gyarados",
+      "vidaBase": 100,
+      "tipos": ["agua", "volador"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 1,
+          "damage": 60
+        },
+        {
+          "nombre": "Furia Dragón",
+          "tipo": "dragon",
+          "nivelMin": 1,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 110
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 20,
+          "damage": 60
+        },
+        {
+          "nombre": "Furia Dragón",
+          "tipo": "dragon",
+          "nivelMin": 25,
+          "damage": 1
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 32,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 41,
+          "damage": 110
+        },
+        {
+          "nombre": "Hiperrayo",
+          "tipo": "normal",
+          "nivelMin": 52,
+          "damage": 150
+        }
+      ]
+    },
+    {
+      "nombre": "Lapras",
+      "vidaBase": 100,
+      "tipos": ["agua", "hielo"],
+      "ataques": [
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Canto", "tipo": "normal", "nivelMin": 16, "damage": 30 },
+        {
+          "nombre": "Neblina",
+          "tipo": "hielo",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 25,
+          "damage": 85
+        },
+        {
+          "nombre": "Rayo Confuso",
+          "tipo": "fantasma",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Rayo Hielo",
+          "tipo": "hielo",
+          "nivelMin": 38,
+          "damage": 90
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 46,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Ditto",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Transformación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Eevee",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 31,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Gruñido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 40
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 37,
+          "damage": 60
+        },
+        {
+          "nombre": "Foco Energía",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 45,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Vaporeon",
+      "vidaBase": 100,
+      "tipos": ["agua"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 37,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 31,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 40
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 40,
+          "damage": 60
+        },
+        {
+          "nombre": "Rayo Aurora",
+          "tipo": "hielo",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        { "nombre": "Niebla", "tipo": "hielo", "nivelMin": 44, "damage": 30 },
+        {
+          "nombre": "Armadura Ácida",
+          "tipo": "veneno",
+          "nivelMin": 42,
+          "damage": 30
+        },
+        {
+          "nombre": "Neblina",
+          "tipo": "hielo",
+          "nivelMin": 48,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 54,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Jolteon",
+      "vidaBase": 100,
+      "tipos": ["electrico"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 37,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 31,
+          "damage": 40
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 40
+        },
+        {
+          "nombre": "Doble Patada",
+          "tipo": "lucha",
+          "nivelMin": 42,
+          "damage": 30
+        },
+        {
+          "nombre": "Pin Misil",
+          "tipo": "bicho",
+          "nivelMin": 48,
+          "damage": 25
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 40,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 44,
+          "damage": 30
+        },
+        {
+          "nombre": "Trueno",
+          "tipo": "electrico",
+          "nivelMin": 54,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Flareon",
+      "vidaBase": 100,
+      "tipos": ["fuego"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Látigo",
+          "tipo": "normal",
+          "nivelMin": 37,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 1, "damage": 40 },
+        {
+          "nombre": "Ataque Arena",
+          "tipo": "tierra",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        { "nombre": "Ascuas", "tipo": "fuego", "nivelMin": 31, "damage": 40 },
+        {
+          "nombre": "Ataque Rápido",
+          "tipo": "normal",
+          "nivelMin": 27,
+          "damage": 40
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 40,
+          "damage": 60
+        },
+        {
+          "nombre": "Giro Fuego",
+          "tipo": "fuego",
+          "nivelMin": 44,
+          "damage": 35
+        },
+        {
+          "nombre": "Polución",
+          "tipo": "veneno",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 42,
+          "damage": 30
+        },
+        { "nombre": "Furia", "tipo": "normal", "nivelMin": 48, "damage": 20 },
+        {
+          "nombre": "Lanzallamas",
+          "tipo": "fuego",
+          "nivelMin": 54,
+          "damage": 90
+        }
+      ]
+    },
+    {
+      "nombre": "Porygon",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Placaje",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Afilar", "tipo": "normal", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Conversión",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Psicorrayo",
+          "tipo": "psiquico",
+          "nivelMin": 23,
+          "damage": 65
+        },
+        {
+          "nombre": "Recuperación",
+          "tipo": "normal",
+          "nivelMin": 28,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 35,
+          "damage": 30
+        },
+        {
+          "nombre": "Triataque",
+          "tipo": "normal",
+          "nivelMin": 42,
+          "damage": 80
+        }
+      ]
+    },
+    {
+      "nombre": "Omanyte",
+      "vidaBase": 100,
+      "tipos": ["roca", "agua"],
+      "ataques": [
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Refugio", "tipo": "agua", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 34,
+          "damage": 65
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Clavo Cañón",
+          "tipo": "normal",
+          "nivelMin": 46,
+          "damage": 20
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 53,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Omastar",
+      "vidaBase": 100,
+      "tipos": ["roca", "agua"],
+      "ataques": [
+        {
+          "nombre": "Pistola Agua",
+          "tipo": "agua",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        { "nombre": "Refugio", "tipo": "agua", "nivelMin": 1, "damage": 30 },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 65
+        },
+        {
+          "nombre": "Cornada",
+          "tipo": "normal",
+          "nivelMin": 34,
+          "damage": 65
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 30
+        },
+        {
+          "nombre": "Clavo Cañón",
+          "tipo": "normal",
+          "nivelMin": 44,
+          "damage": 20
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 49,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Kabuto",
+      "vidaBase": 100,
+      "tipos": ["roca", "agua"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Absorber",
+          "tipo": "planta",
+          "nivelMin": 34,
+          "damage": 20
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 70
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 44,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 49,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Kabutops",
+      "vidaBase": 100,
+      "tipos": ["roca", "agua"],
+      "ataques": [
+        {
+          "nombre": "Arañazo",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Absorber",
+          "tipo": "planta",
+          "nivelMin": 1,
+          "damage": 20
+        },
+        {
+          "nombre": "Absorber",
+          "tipo": "planta",
+          "nivelMin": 34,
+          "damage": 20
+        },
+        {
+          "nombre": "Cuchillada",
+          "tipo": "normal",
+          "nivelMin": 39,
+          "damage": 70
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 46,
+          "damage": 30
+        },
+        {
+          "nombre": "Hidrobomba",
+          "tipo": "agua",
+          "nivelMin": 53,
+          "damage": 110
+        }
+      ]
+    },
+    {
+      "nombre": "Aerodactyl",
+      "vidaBase": 100,
+      "tipos": ["roca", "volador"],
+      "ataques": [
+        {
+          "nombre": "Ataque Ala",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 60
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Supersónico",
+          "tipo": "normal",
+          "nivelMin": 33,
+          "damage": 30
+        },
+        {
+          "nombre": "Mordisco",
+          "tipo": "siniestro",
+          "nivelMin": 38,
+          "damage": 60
+        },
+        {
+          "nombre": "Derribo",
+          "tipo": "normal",
+          "nivelMin": 45,
+          "damage": 90
+        },
+        {
+          "nombre": "Hiperrayo",
+          "tipo": "normal",
+          "nivelMin": 54,
+          "damage": 150
+        }
+      ]
+    },
+    {
+      "nombre": "Snorlax",
+      "vidaBase": 100,
+      "tipos": ["normal"],
+      "ataques": [
+        {
+          "nombre": "Golpe Cabeza",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 70
+        },
+        {
+          "nombre": "Amnesia",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Descanso",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Golpe Cuerpo",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 85
+        },
+        {
+          "nombre": "Fortaleza",
+          "tipo": "normal",
+          "nivelMin": 41,
+          "damage": 30
+        },
+        {
+          "nombre": "Doble Filo",
+          "tipo": "normal",
+          "nivelMin": 48,
+          "damage": 120
+        },
+        {
+          "nombre": "Hiperrayo",
+          "tipo": "normal",
+          "nivelMin": 56,
+          "damage": 150
+        }
+      ]
+    },
+    {
+      "nombre": "Articuno",
+      "vidaBase": 100,
+      "tipos": ["hielo", "volador"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        {
+          "nombre": "Rayo Hielo",
+          "tipo": "hielo",
+          "nivelMin": 1,
+          "damage": 90
+        },
+        {
+          "nombre": "Ventisca",
+          "tipo": "hielo",
+          "nivelMin": 51,
+          "damage": 110
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 55,
+          "damage": 30
+        },
+        { "nombre": "Neblina", "tipo": "hielo", "nivelMin": 60, "damage": 30 }
+      ]
+    },
+    {
+      "nombre": "Zapdos",
+      "vidaBase": 100,
+      "tipos": ["electrico", "volador"],
+      "ataques": [
+        {
+          "nombre": "Impactrueno",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Pico Taladro",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 80
+        },
+        {
+          "nombre": "Trueno",
+          "tipo": "electrico",
+          "nivelMin": 51,
+          "damage": 110
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 55,
+          "damage": 30
+        },
+        {
+          "nombre": "Pantalla de Luz",
+          "tipo": "psiquico",
+          "nivelMin": 60,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Moltres",
+      "vidaBase": 100,
+      "tipos": ["fuego", "volador"],
+      "ataques": [
+        {
+          "nombre": "Picotazo",
+          "tipo": "volador",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        {
+          "nombre": "Giro Fuego",
+          "tipo": "fuego",
+          "nivelMin": 1,
+          "damage": 35
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 51,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 55,
+          "damage": 30
+        },
+        {
+          "nombre": "Ataque Aéreo",
+          "tipo": "volador",
+          "nivelMin": 60,
+          "damage": 140
+        }
+      ]
+    },
+    {
+      "nombre": "Dratini",
+      "vidaBase": 100,
+      "tipos": ["dragon"],
+      "ataques": [
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 10,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Atizar",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 80
+        },
+        {
+          "nombre": "Furia Dragón",
+          "tipo": "dragon",
+          "nivelMin": 40,
+          "damage": 1
+        },
+        {
+          "nombre": "Hiperrayo",
+          "tipo": "normal",
+          "nivelMin": 50,
+          "damage": 150
+        }
+      ]
+    },
+    {
+      "nombre": "Dragonair",
+      "vidaBase": 100,
+      "tipos": ["dragon"],
+      "ataques": [
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 10,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Atizar",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 80
+        },
+        {
+          "nombre": "Furia Dragón",
+          "tipo": "dragon",
+          "nivelMin": 45,
+          "damage": 1
+        },
+        {
+          "nombre": "Hiperrayo",
+          "tipo": "normal",
+          "nivelMin": 55,
+          "damage": 150
+        }
+      ]
+    },
+    {
+      "nombre": "Dragonite",
+      "vidaBase": 100,
+      "tipos": ["dragon", "volador"],
+      "ataques": [
+        {
+          "nombre": "Constricción",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 15
+        },
+        {
+          "nombre": "Malicioso",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Onda Trueno",
+          "tipo": "electrico",
+          "nivelMin": 10,
+          "damage": 30
+        },
+        {
+          "nombre": "Agilidad",
+          "tipo": "psiquico",
+          "nivelMin": 20,
+          "damage": 30
+        },
+        {
+          "nombre": "Atizar",
+          "tipo": "normal",
+          "nivelMin": 35,
+          "damage": 80
+        },
+        {
+          "nombre": "Furia Dragón",
+          "tipo": "dragon",
+          "nivelMin": 45,
+          "damage": 1
+        },
+        {
+          "nombre": "Hiperrayo",
+          "tipo": "normal",
+          "nivelMin": 60,
+          "damage": 150
+        }
+      ]
+    },
+    {
+      "nombre": "Mewtwo",
+      "vidaBase": 100,
+      "tipos": ["psiquico"],
+      "ataques": [
+        {
+          "nombre": "Confusión",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 50
+        },
+        {
+          "nombre": "Anulación",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 30
+        },
+        {
+          "nombre": "Rapidez",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 60
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 1,
+          "damage": 90
+        },
+        {
+          "nombre": "Barrera",
+          "tipo": "psiquico",
+          "nivelMin": 63,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 66,
+          "damage": 90
+        },
+        {
+          "nombre": "Recuperación",
+          "tipo": "normal",
+          "nivelMin": 70,
+          "damage": 30
+        },
+        {
+          "nombre": "Neblina",
+          "tipo": "hielo",
+          "nivelMin": 75,
+          "damage": 30
+        },
+        {
+          "nombre": "Amnesia",
+          "tipo": "psiquico",
+          "nivelMin": 81,
+          "damage": 30
+        }
+      ]
+    },
+    {
+      "nombre": "Mew",
+      "vidaBase": 100,
+      "tipos": ["psiquico"],
+      "ataques": [
+        {
+          "nombre": "Destructor",
+          "tipo": "normal",
+          "nivelMin": 1,
+          "damage": 40
+        },
+        {
+          "nombre": "Transformación",
+          "tipo": "normal",
+          "nivelMin": 10,
+          "damage": 30
+        },
+        {
+          "nombre": "Megapuño",
+          "tipo": "normal",
+          "nivelMin": 20,
+          "damage": 80
+        },
+        {
+          "nombre": "Metrónomo",
+          "tipo": "normal",
+          "nivelMin": 30,
+          "damage": 30
+        },
+        {
+          "nombre": "Psíquico",
+          "tipo": "psiquico",
+          "nivelMin": 40,
+          "damage": 90
+        }
+      ]
+    }
+  ]
+}

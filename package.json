@@ -1,0 +1,17 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/juego_pokemon.js",
+  "type": "module",
+  "dependencies": {
+    "input": "^1.0.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node src/juego_pokemon.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
