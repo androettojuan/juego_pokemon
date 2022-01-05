@@ -1,3 +1,5 @@
+import Ataque from "./ataque.js";
+
 const EXP_LEVEL = [150, 200, 250];
 
 class Pokemon {
@@ -7,8 +9,25 @@ class Pokemon {
   nivel = 1;
   tipos = [];
   exp = 0;
-  ataques = []
-  
+  ataques = [];
+
+  rellenar = (datosPokemon) => {
+    this.nombre = datosPokemon.nombre;
+    this.nombre = datosPokemon.nombre;
+    this.vida = datosPokemon.vidaBase;
+    this.vidaBase = datosPokemon.vidaBase;
+    this.tipos = datosPokemon.tipos;
+
+    for (const datosAtaque of datosPokemon.ataques){
+      const ataque = new Ataque()
+      ataque.nombre = datosAtaque.nombre
+      ataque.tipo = datosAtaque.tipo
+      ataque.nivelMin = datosAtaque.nivelMin
+      ataque.damage = datosAtaque.damage
+      this.ataques.push(ataque)
+    }
+  };
+
   mostrar = () => {
     console.log("==========================================");
     console.log(`Estadisticas de ${this.nombre} (tipo ${this.tipo})`);
@@ -47,8 +66,6 @@ class Pokemon {
     console.log(`La vida de ${this.nombre} fue restaurada`);
     console.log("==========================================");
   };
-
-
 }
 
 export default Pokemon;

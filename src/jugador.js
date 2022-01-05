@@ -17,10 +17,7 @@ class Jugador {
     for (let i = 0; i < 3; i += 1) {
       const datosPokemon = lodash.sample(listaPokemones.lista)      
       const pokemon = new Pokemon();
-      pokemon.nombre = datosPokemon.nombre;
-      pokemon.vida = datosPokemon.vidaBase;
-      pokemon.vidaBase = datosPokemon.vidaBase;
-      pokemon.tipos = datosPokemon.tipos;
+      pokemon.rellenar(datosPokemon)
       this.pokedex.push(pokemon);
       
     }
@@ -54,13 +51,10 @@ class Jugador {
       }
     );
 
-    for (const pokemon of pokemonesElegidos) {
-      const nuevoPokemon = new Pokemon();
-      nuevoPokemon.nombre = pokemon.nombre;
-      nuevoPokemon.vida = pokemon.vidaBase;
-      nuevoPokemon.vidaBase = pokemon.vidaBase;
-      nuevoPokemon.tipos = pokemon.tipos;
-      this.pokedex.push(nuevoPokemon);
+    for (const datosPokemon of pokemonesElegidos) {
+      const pokemon = new Pokemon();
+      pokemon.rellenar(datosPokemon)
+      this.pokedex.push(pokemon);
     }
   };
 
