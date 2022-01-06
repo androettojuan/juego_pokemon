@@ -65,14 +65,15 @@ class Jugador {
       await this._inicializarJugador();
     }
   };
+  obtenerPokemonesVivos = () =>
+    this.pokedex.filter((pokemon) => pokemon.vida > 0);
 
   _elegirPokemonCpu = () => {
-    this.pokemonActual = lodash.sample(this.pokedex);
+    this.pokemonActual = lodash.sample(this.obtenerPokemonesVivos());
   };
 
   _elegirPokemonJugador = async () => {
-    const pokemonesVivos = this.pokedex.filter((pokemon) => pokemon.vida > 0);
-    const opcionesPokemon = pokemonesVivos.map((pokemon) => ({
+    const opcionesPokemon = this.obtenerPokemonesVivos().map((pokemon) => ({
       name: pokemon.nombre,
       value: pokemon,
     }));
@@ -119,6 +120,22 @@ class Jugador {
     } else {
       await this._elegirAtaqueJugador();
     }
+  };
+
+  atacar = (jugadorAtacado) => {
+    const damage = this.ataqueActual.damage;
+    console.log("=============================================");
+    console.log(
+      `${this.pokemonActual.nombre} ataca a ${jugadorAtacado.pokemonActual.nombre} y le causa ${damage} de daño`
+    );
+    jugadorAtacado.pokemonActual.vida -= damage;
+
+    if (jugadorAtacado.pokemonActual.vida <= 0) {
+      jugadorAtacado.pokemonActual.vida = 0;
+      console.log(`${jugadorAtacado.pokemonActual.nombre} quedo debilitado`);
+      jugadorAtacado.pokemonActual = undefined;
+    }
+    console.log("=============================================");
   };
 }
 
