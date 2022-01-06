@@ -10,16 +10,16 @@ class Jugador {
   pokedex = [];
   pokemonActual = undefined;
   tipo = "cpu";
+  ataqueActual = undefined;
 
   _inicializarCpu = () => {
     //inicializa un jugador automatico
     this.nombre = "cpu";
     for (let i = 0; i < 3; i += 1) {
-      const datosPokemon = lodash.sample(listaPokemones.lista)      
+      const datosPokemon = lodash.sample(listaPokemones.lista);
       const pokemon = new Pokemon();
-      pokemon.rellenar(datosPokemon)
+      pokemon.rellenar(datosPokemon);
       this.pokedex.push(pokemon);
-      
     }
   };
 
@@ -53,7 +53,7 @@ class Jugador {
 
     for (const datosPokemon of pokemonesElegidos) {
       const pokemon = new Pokemon();
-      pokemon.rellenar(datosPokemon)
+      pokemon.rellenar(datosPokemon);
       this.pokedex.push(pokemon);
     }
   };
@@ -89,5 +89,37 @@ class Jugador {
       await this._elegirPokemonJugador();
     }
   };
+
+  obtenerAtaquesValidos = () =>
+    this.pokemonActual.ataques.filter(
+      (ataque) => ataque.nivelMin <= this.pokemonActual.nivel
+    );
+
+  _elegirAtaqueCpu = () => {
+    this.ataqueActual = lodash.sample(this.obtenerAtaquesValidos());
+  };
+
+  _elegirAtaqueJugador = async () => {
+    console.log("Seleccione un ataque");
+    const opcionesAtaques = this.obtenerAtaquesValidos().map(
+      (ataqueElegido) => ({
+        name: ataqueElegido.nombre,
+        value: ataqueElegido,
+      })
+    );
+    this.ataqueActual = await input.select(
+      "Seleccione un ataque",
+      opcionesAtaques
+    );
+  };
+
+  elegirAtaque = async () => {
+    if (this.tipo === "cpu") {
+      this._elegirAtaqueCpu();
+    } else {
+      await this._elegirAtaqueJugador();
+    }
+  };
 }
+
 export default Jugador;
