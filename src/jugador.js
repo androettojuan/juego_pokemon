@@ -9,8 +9,14 @@ class Jugador {
   nombre = "";
   pokedex = [];
   pokemonActual = undefined;
-  tipo = "cpu";
+  tipo = "jugador";
   ataqueActual = undefined;
+
+  constructor(tipo) {
+    if (tipo){
+      this.tipo = tipo
+    }
+  }
 
   _inicializarCpu = () => {
     //inicializa un jugador automatico
@@ -23,16 +29,16 @@ class Jugador {
     }
   };
 
-  _inicializarJugador = async () => {
+  _inicializarJugador = async (numero) => {
     //inicializar jugador manual
     // Elegimos el nombre
     this.nombre = await input.text("¿Cual es tu nombre?", {
-      default: "Player",
+      default: `Player ${numero}`,
     });
 
     // Mapeamos la lista de pokemones para preguntarle al usuario
-    const opciones = listaPokemones.lista.map((pokemon) => ({
-      name: pokemon.nombre,
+    const opciones = listaPokemones.lista.map((pokemon, numero) => ({
+      name: `${numero + 1}. ${pokemon.nombre}`,
       value: pokemon,
     }));
 
@@ -58,11 +64,11 @@ class Jugador {
     }
   };
 
-  inicializar = async () => {
+  inicializar = async (numero) => {
     if (this.tipo === "cpu") {
       this._inicializarCpu();
     } else {
-      await this._inicializarJugador();
+      await this._inicializarJugador(numero);
     }
   };
   obtenerPokemonesVivos = () =>
@@ -73,8 +79,8 @@ class Jugador {
   };
 
   _elegirPokemonJugador = async () => {
-    const opcionesPokemon = this.obtenerPokemonesVivos().map((pokemon) => ({
-      name: pokemon.nombre,
+    const opcionesPokemon = this.obtenerPokemonesVivos().map((pokemon, numero) => ({
+      name: `${numero + 1}. ${pokemon.nombre}`,
       value: pokemon,
     }));
     this.pokemonActual = await input.select(

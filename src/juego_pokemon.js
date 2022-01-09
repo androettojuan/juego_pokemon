@@ -1,14 +1,12 @@
+import Batalla from "./batalla.js";
 import Jugador from "./jugador.js";
 import Pokemon from "./pokemon.js";
 
+//Crear jugadores
 
-            
-const jugador1 = new Jugador()
-jugador1.tipo = "cpu"
-await jugador1.inicializar()
-await jugador1.elegirPokemon()
-await jugador1.elegirAtaque()
-const jugador2 = new Jugador()
-await jugador2.inicializar()
-await jugador2.elegirPokemon()
-await jugador2.elegirAtaque()
+//Mostrar Pokemones elegidos y pokemones del rival
+
+//Inicio del juego
+//Empieza la pelea
+//Ambos jugadores eligen el pokemon con el que se empezara a pelear
+
