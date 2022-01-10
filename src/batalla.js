@@ -6,13 +6,21 @@ class Batalla {
   jugador2 = undefined;
   turnoActual = 1;
   juegoTerminado = false;
+  combateTerminado = false;
 
-  inicioPelea = async () => {
+  saludoBienvenida = () => {
+    console.log("=============================================");
+    console.log("------Bienvenido a la batalla Pokemon-------");
+    console.log("=============================================");
+  };
+
+  inicioBatalla = async () => {
     const comienzo = await input.text(
       "¿Desea comenzar una nueva batalla?[S] para continuar[N] para salir"
     );
     if (comienzo === "S") {
       this.juegoTerminado = false;
+      this.combateTerminado = false;
     } else {
       this.juegoTerminado = true;
     }
@@ -29,13 +37,26 @@ class Batalla {
       this.jugador1 = new Jugador();
       this.jugador2 = new Jugador();
     }
-    await this.jugador1.inicializar(1)
-    await this.jugador2.inicializar(2)
+    await this.jugador1.inicializar(1);
+    await this.jugador2.inicializar(2);
   };
 
-  mostrarPokemones = () =>{
+  mostrarJugadorActual = () => {
+    if (this.turnoActual === 1) {
+      console.log("=============================================");
+      console.log(`Es el turno de ${this.jugador1.nombre}`);
+      console.log("=============================================");
+    } else {
+      console.log("=============================================");
+      console.log(`Es el turno de ${this.jugador2.nombre}`);
+      console.log("=============================================");
+    }
+  };
 
-  }
+  mostrarPokemones = () => {
+    this.jugador1.mostrarPokemones();
+    this.jugador2.mostrarPokemones();
+  };
 
   cambioTurno = () => {
     if (this.turnoActual === 1) {
@@ -44,6 +65,7 @@ class Batalla {
       this.turnoActual = 1;
     }
   };
+  peleaTerminada = async () => (this.combateTerminado = true);
 }
 
 export default Batalla;
