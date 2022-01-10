@@ -30,7 +30,7 @@ class Pokemon {
 
   mostrar = () => {
     console.log("==========================================");
-    console.log(`Estadisticas de ${this.nombre} (tipo ${this.tipo})`);
+    console.log(`Estadisticas de ${this.nombre} (tipo ${this.tipos})`);
     console.log(
       `Vida: ${this.vida}/${this.vidaBase} - Nivel: ${this.nivel}, Experiencia: ${this.exp}`
     );
