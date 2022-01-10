@@ -13,8 +13,8 @@ class Jugador {
   ataqueActual = undefined;
 
   constructor(tipo) {
-    if (tipo){
-      this.tipo = tipo
+    if (tipo) {
+      this.tipo = tipo;
     }
   }
 
@@ -79,10 +79,12 @@ class Jugador {
   };
 
   _elegirPokemonJugador = async () => {
-    const opcionesPokemon = this.obtenerPokemonesVivos().map((pokemon, numero) => ({
-      name: `${numero + 1}. ${pokemon.nombre}`,
-      value: pokemon,
-    }));
+    const opcionesPokemon = this.obtenerPokemonesVivos().map(
+      (pokemon, numero) => ({
+        name: `${numero + 1}. ${pokemon.nombre}`,
+        value: pokemon,
+      })
+    );
     this.pokemonActual = await input.select(
       "Seleccione un Pokemon",
       opcionesPokemon
@@ -126,6 +128,17 @@ class Jugador {
     } else {
       await this._elegirAtaqueJugador();
     }
+  };
+
+  mostrarPokemones = () => {
+    const pokemon1 = this.pokedex[0];
+    const pokemon2 = this.pokedex[1];
+    const pokemon3 = this.pokedex[2];
+    console.log(`Los pokemones de ${this.nombre} son:\n`);
+    pokemon1.mostrar();
+    pokemon2.mostrar();
+    pokemon3.mostrar();
+    console.log("\n")
   };
 
   atacar = (jugadorAtacado) => {
