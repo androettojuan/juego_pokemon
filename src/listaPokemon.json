@@ -14,7 +14,7 @@
         {
           "nombre": "Gruñido",
           "tipo": "normal",
-          "nivelMin": 1,
+          "nivelMin": 2,
           "damage": 30
         },
         {

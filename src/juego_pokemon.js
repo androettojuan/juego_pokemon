@@ -2,8 +2,9 @@ import Batalla from "./batalla.js";
 
 const batalla = new Batalla();
 
+batalla.saludoBienvenida();
+
 while (!batalla.juegoTerminado) {
-  batalla.saludoBienvenida();
   await batalla.inicioBatalla();
 
   //Crear jugadores
@@ -19,8 +20,8 @@ while (!batalla.juegoTerminado) {
   //Empieza la pelea
   while (!batalla.combateTerminado) {
     // Creo variables del jugador actual y del oponente
-    const playerActual = undefined;
-    const oponente = undefined;
+    let playerActual = undefined;
+    let oponente = undefined;
     if (batalla.turnoActual === 1) {
       playerActual = batalla.jugador1;
       oponente = batalla.jugador2;
@@ -35,10 +36,15 @@ while (!batalla.juegoTerminado) {
       await playerActual.elegirPokemon();
     }
     // Se elige el ataque que se va a usar o cambiar de pokemon
-    await batalla.playerActual.elegirAtaque();
+    await playerActual.elegirAtaque();
 
     // Se ejecuta el ataque
-    batalla.playerActual.atacar(oponente);
+    playerActual.atacar(oponente);
+    
+    //cambiar de turno
+    batalla.cambioTurno()
   }
+  //mostrar ganador
+  // otorgar experiencia
+  // restaurar pokemones
 }
-

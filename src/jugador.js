@@ -76,6 +76,7 @@ class Jugador {
 
   _elegirPokemonCpu = () => {
     this.pokemonActual = lodash.sample(this.obtenerPokemonesVivos());
+    console.log(`${this.nombre}: ${this.pokemonActual.nombre} yo te elijo!!!`);
   };
 
   _elegirPokemonJugador = async () => {
@@ -92,7 +93,7 @@ class Jugador {
   };
 
   elegirPokemon = async () => {
-    if (this.tipo === "cpu") {
+    if (this.tipo === "cpu" || this.obtenerPokemonesVivos().length <= 1) {
       this._elegirPokemonCpu();
     } else {
       await this._elegirPokemonJugador();
@@ -123,7 +124,7 @@ class Jugador {
   };
 
   elegirAtaque = async () => {
-    if (this.tipo === "cpu") {
+    if (this.tipo === "cpu" || this.obtenerAtaquesValidos().length <= 1) {
       this._elegirAtaqueCpu();
     } else {
       await this._elegirAtaqueJugador();
@@ -131,21 +132,18 @@ class Jugador {
   };
 
   mostrarPokemones = () => {
-    const pokemon1 = this.pokedex[0];
-    const pokemon2 = this.pokedex[1];
-    const pokemon3 = this.pokedex[2];
     console.log(`Los pokemones de ${this.nombre} son:\n`);
-    pokemon1.mostrar();
-    pokemon2.mostrar();
-    pokemon3.mostrar();
-    console.log("\n")
+    for (const pokemon of this.pokedex) {
+      pokemon.mostrar();
+    }
+    console.log("\n");
   };
 
   atacar = (jugadorAtacado) => {
     const damage = this.ataqueActual.damage;
     console.log("=============================================");
     console.log(
-      `${this.pokemonActual.nombre} ataca a ${jugadorAtacado.pokemonActual.nombre} y le causa ${damage} de daño`
+      `${this.pokemonActual.nombre} usa ${this.ataqueActual.nombre} contra ${jugadorAtacado.pokemonActual.nombre} y le causa ${damage} de daño`
     );
     jugadorAtacado.pokemonActual.vida -= damage;
 
