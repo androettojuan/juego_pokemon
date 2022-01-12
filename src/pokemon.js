@@ -1,4 +1,5 @@
 import Ataque from "./ataque.js";
+import lodash from "lodash"
 
 const EXP_LEVEL = [150, 200, 250];
 
@@ -9,9 +10,11 @@ class Pokemon {
   nivel = 1;
   tipos = [];
   exp = 0;
+  id;
   ataques = [];
 
   rellenar = (datosPokemon) => {
+    this.id = lodash.random(0, 100000000)
     this.nombre = datosPokemon.nombre;
     this.nombre = datosPokemon.nombre;
     this.vida = datosPokemon.vidaBase;

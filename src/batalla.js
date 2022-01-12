@@ -14,7 +14,7 @@ class Batalla {
     console.log("=============================================");
   };
 
-  inicioBatalla = async () => {
+  nuevaBatalla = async () => {
     const comienzo = await input.text(
       "¿Desea comenzar una nueva batalla?[S] para continuar[N] para salir"
     );
@@ -44,11 +44,11 @@ class Batalla {
   mostrarJugadorActual = () => {
     if (this.turnoActual === 1) {
       console.log("=============================================");
-      console.log(`Es el turno de ${this.jugador1.nombre}`);
+      console.log(`            Es el turno de ${this.jugador1.nombre}`);
       console.log("=============================================");
     } else {
       console.log("=============================================");
-      console.log(`Es el turno de ${this.jugador2.nombre}`);
+      console.log(`            Es el turno de ${this.jugador2.nombre}`);
       console.log("=============================================");
     }
   };
@@ -65,6 +65,38 @@ class Batalla {
       this.turnoActual = 1;
     }
   };
+  menuAcciones = async (jugador, oponente) => {
+    let desicion = "";
+    if (jugador.tipo !== "cpu") {
+      const acciones = [
+        {
+          name: "Elegir ataque",
+          value: "ataque",
+        },
+        {
+          name: "Cambiar de pokemon",
+          value: "cambio",
+        },
+      ];
+      desicion = await input.select("Elija una accion", acciones);
+    } else {
+      desicion = "ataque";
+    }
+
+    switch (desicion) {
+      case "ataque":
+        await jugador.elegirAtaque();
+        jugador.atacar(oponente);
+        break;
+      case "cambio":
+        await jugador.elegirPokemon();
+        break;
+      default:
+        console.log("Opción no válida");
+        break;
+    }
+  };
+
   peleaTerminada = async () => (this.combateTerminado = true);
 }
 

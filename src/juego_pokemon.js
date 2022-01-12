@@ -5,8 +5,6 @@ const batalla = new Batalla();
 batalla.saludoBienvenida();
 
 while (!batalla.juegoTerminado) {
-  await batalla.inicioBatalla();
-
   //Crear jugadores
   await batalla.crearJugadores();
 
@@ -36,15 +34,13 @@ while (!batalla.juegoTerminado) {
       await playerActual.elegirPokemon();
     }
     // Se elige el ataque que se va a usar o cambiar de pokemon
-    await playerActual.elegirAtaque();
+    await batalla.menuAcciones(playerActual, oponente)
 
-    // Se ejecuta el ataque
-    playerActual.atacar(oponente);
-    
     //cambiar de turno
-    batalla.cambioTurno()
+    batalla.cambioTurno();
   }
   //mostrar ganador
   // otorgar experiencia
   // restaurar pokemones
+  await batalla.nuevaBatalla();
 }

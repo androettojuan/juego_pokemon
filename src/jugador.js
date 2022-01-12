@@ -88,7 +88,16 @@ class Jugador {
     );
     this.pokemonActual = await input.select(
       "Seleccione un Pokemon",
-      opcionesPokemon
+      opcionesPokemon,
+      {
+        validate: (pokemonSeleccionado) => {
+          if (pokemonSeleccionado.id != this.pokemonActual.id) {
+            return true;
+          } else {
+            return "No puedes elegir el pokemon actual";
+          }
+        },
+      }
     );
   };
 
@@ -153,6 +162,7 @@ class Jugador {
       jugadorAtacado.pokemonActual = undefined;
     }
     console.log("=============================================");
+    this.ataqueActual = undefined;
   };
 }
 
