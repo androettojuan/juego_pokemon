@@ -65,6 +65,7 @@ class Jugador {
   };
 
   inicializar = async (numero) => {
+    this.pokedex = [];
     if (this.tipo === "cpu") {
       this._inicializarCpu();
     } else {

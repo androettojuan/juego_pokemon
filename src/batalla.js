@@ -32,17 +32,17 @@ class Batalla {
     );
     if (cantidadJugadores === "1") {
       this.jugador1 = new Jugador();
+      this.jugador2 = new Jugador("cpu");
     } else {
       this.jugador1 = new Jugador();
       this.jugador2 = new Jugador();
     }
     await this.jugador1.inicializar(1);
-    if (!this.jugador2 === undefined) await this.jugador2.inicializar(2);
+    await this.jugador2.inicializar(2);
   };
 
-  crearJugadorDos = () => {
-    if (this.jugador2 === undefined) {
-      this.jugador2 = new Jugador("cpu");
+  reiniciarEnemigo = () => {
+    if (this.jugador2.tipo === "cpu") {
       this.jugador2.inicializar(2);
     }
   };

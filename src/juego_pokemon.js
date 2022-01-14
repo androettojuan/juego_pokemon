@@ -9,7 +9,7 @@ await batalla.crearJugadores();
 
 while (!batalla.juegoTerminado) {
   //crear jugador 2 en caso de que corresponda
-  batalla.crearJugadorDos()
+  batalla.reiniciarEnemigo();
   //Mostrar Pokemones elegidos y pokemones del rival
   batalla.mostrarPokemones();
 
@@ -18,7 +18,6 @@ while (!batalla.juegoTerminado) {
   await batalla.jugador2.elegirPokemon();
 
   let ganador = undefined;
-  let perdedor = undefined;
   //Empieza la pelea
   while (!batalla.combateTerminado) {
     // Creo variables del jugador actual y del oponente
@@ -42,7 +41,6 @@ while (!batalla.juegoTerminado) {
 
     if (!oponente.algunPokemonVivo()) {
       ganador = playerActual;
-      batalla.jugador2 = undefined
       batalla.combateTerminado = true;
     } else {
       //cambiar de turno
