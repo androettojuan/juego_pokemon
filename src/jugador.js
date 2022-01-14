@@ -74,6 +74,14 @@ class Jugador {
   obtenerPokemonesVivos = () =>
     this.pokedex.filter((pokemon) => pokemon.vida > 0);
 
+  algunPokemonVivo = () => {
+    if (this.obtenerPokemonesVivos().length === 0) {
+      return false;
+    } else {
+      return true;
+    }
+  };
+
   _elegirPokemonCpu = () => {
     this.pokemonActual = lodash.sample(this.obtenerPokemonesVivos());
     console.log(`${this.nombre}: ${this.pokemonActual.nombre} yo te elijo!!!`);
@@ -163,6 +171,16 @@ class Jugador {
     }
     console.log("=============================================");
     this.ataqueActual = undefined;
+  };
+  otorgarExperiencia = () => {
+    for (const pokemon of this.pokedex) {
+      pokemon.otorgarExp(100);
+    }
+  };
+  restaurarVidaPokemones = () => {
+    for (const pokemon of this.pokedex) {
+      pokemon.restaurarVida();
+    }
   };
 }
 
