@@ -18,11 +18,11 @@ class Batalla {
     const comienzo = await input.text(
       "¿Desea comenzar una nueva batalla?[S] para continuar[N] para salir"
     );
-    if (comienzo === "S") {
+    if (comienzo === "N") {
+      this.juegoTerminado = true;
+    } else {
       this.juegoTerminado = false;
       this.combateTerminado = false;
-    } else {
-      this.juegoTerminado = true;
     }
   };
 
@@ -37,16 +37,15 @@ class Batalla {
       this.jugador2 = new Jugador();
     }
     await this.jugador1.inicializar(1);
-    if (!this.jugador2 === undefined)
-      await this.jugador2.inicializar(2);
+    if (!this.jugador2 === undefined) await this.jugador2.inicializar(2);
   };
 
   crearJugadorDos = () => {
-    if (this.jugador2 === undefined){
-      this.jugador2 = new Jugador("cpu")
-      this.jugador2.inicializar(2)
+    if (this.jugador2 === undefined) {
+      this.jugador2 = new Jugador("cpu");
+      this.jugador2.inicializar(2);
     }
-  }
+  };
 
   mostrarJugadorActual = () => {
     if (this.turnoActual === 1) {
