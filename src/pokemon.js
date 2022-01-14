@@ -1,5 +1,5 @@
 import Ataque from "./ataque.js";
-import lodash from "lodash"
+import lodash from "lodash";
 
 const EXP_LEVEL = [150, 200, 250];
 
@@ -14,20 +14,20 @@ class Pokemon {
   ataques = [];
 
   rellenar = (datosPokemon) => {
-    this.id = lodash.random(0, 100000000)
+    this.id = lodash.random(0, 100000000);
     this.nombre = datosPokemon.nombre;
     this.nombre = datosPokemon.nombre;
     this.vida = datosPokemon.vidaBase;
     this.vidaBase = datosPokemon.vidaBase;
     this.tipos = datosPokemon.tipos;
 
-    for (const datosAtaque of datosPokemon.ataques){
-      const ataque = new Ataque()
-      ataque.nombre = datosAtaque.nombre
-      ataque.tipo = datosAtaque.tipo
-      ataque.nivelMin = datosAtaque.nivelMin
-      ataque.damage = datosAtaque.damage
-      this.ataques.push(ataque)
+    for (const datosAtaque of datosPokemon.ataques) {
+      const ataque = new Ataque();
+      ataque.nombre = datosAtaque.nombre;
+      ataque.tipo = datosAtaque.tipo;
+      ataque.nivelMin = datosAtaque.nivelMin;
+      ataque.damage = datosAtaque.damage;
+      this.ataques.push(ataque);
     }
   };
 
