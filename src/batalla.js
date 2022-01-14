@@ -32,14 +32,21 @@ class Batalla {
     );
     if (cantidadJugadores === "1") {
       this.jugador1 = new Jugador();
-      this.jugador2 = new Jugador("cpu");
     } else {
       this.jugador1 = new Jugador();
       this.jugador2 = new Jugador();
     }
     await this.jugador1.inicializar(1);
-    await this.jugador2.inicializar(2);
+    if (!this.jugador2 === undefined)
+      await this.jugador2.inicializar(2);
   };
+
+  crearJugadorDos = () => {
+    if (this.jugador2 === undefined){
+      this.jugador2 = new Jugador("cpu")
+      this.jugador2.inicializar(2)
+    }
+  }
 
   mostrarJugadorActual = () => {
     if (this.turnoActual === 1) {
@@ -98,6 +105,21 @@ class Batalla {
   };
 
   peleaTerminada = async () => (this.combateTerminado = true);
+
+  mostrarGanador = (ganador) => {
+    const gano = ganador.nombre;
+    console.log("\n=============================================");
+    console.log(`           El ganador es ${gano}`);
+    console.log("=============================================\n");
+  };
+
+  otorgarExpPok = (player) => {
+    player.otorgarExperiencia();
+  };
+
+  restaurarVidaPok = (player) => {
+    player.restaurarVidaPokemones();
+  };
 }
 
 export default Batalla;
